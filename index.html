@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap 101 Template</title>
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+  </head>
+  <body>
+
+<div class="wrapper">
+  <div class="row">
+    <div class="col-sm-1 col-md-1 col-lg-1">Пусто</div>
+    <div class="col-sm-2 col-md-2 col-lg-2"><img class="logo" src="images/logotype.png"></div>
+    <div class="rem-note col-sm-3 col-md-3 col-lg-3">Ремонт ноутбуков и планшетов — 
+  наша профессия</div>
+
+      <div class="contacts adress col-sm-2 col-md-3 col-lg-3">
+        <a href="#">Санкт-Петербург и область</a>
+      </div>
+      <div class="contacts phone col-sm-2 col-md-2 col-lg-2"><a href="#"> 8 (812) 123-4563</a></div>
+
+    <div class="col-sm-1 col-md-1 col-lg-1">Пусто</div>
+  </div>
+
+  <div class="row">
+    <div class="col-sm-1 col-md-1 col-lg-1">Пусто</div>
+    <div class="navig col-sm-10 col-md-10 col-lg-10">
+      <ul class="nav nav-pills">
+        <li class="active"><a href="#">Ремонт Ноутбуков</a></li>
+        <li><a href="#">Ремонт планшетов</a></li>
+        <li><a href="#">Цены на услуги</a></li>
+        <li><a href="#">Скидки и акции</a></li>
+        <li><a href="#">Почему мы</a></li>
+        <li><a href="#">О компании</a></li>
+        <li><a href="#">Контакты</a></li>
+      </ul>
+    </div>
+    <div class="col-sm-1 col-md-1 col-lg-1">Пусто</div>  
+  </div>
+
+  <div class="row features">
+    <div class="col-sm-1 col-md-1 col-lg-1">Пусто</div>
+    <div class="col-sm-2 col-md-2 col-lg-2"><a class="feature-5" href="/terms/master/">Бесплатный<br>выезд на дом</a></div>
+    <div class="col-sm-2 col-md-2 col-lg-2"><a class="feature-1" href="/terms/master/">Бесплатная<br>доставка</a></div>
+    <div class="col-sm-2 col-md-2 col-lg-2"><a class="feature-2" href="/terms/master/">Качественные<br>запчасти</a></div>
+    <div class="col-sm-2 col-md-2 col-lg-2"><a class="feature-3" href="/terms/master/">Ремонт<br>от 30 минут</a></div>
+    <div class="col-sm-2 col-md-2 col-lg-2"><a class="feature-4" href="/terms/master/">Гарантия<br>Супер 365+</a></div>
+    <div class="col-sm-1 col-md-1 col-lg-1">Пусто</div>
+  </div>
+
+  <div class="row slide">
+    <div class="col-sm-1 col-md-1 col-lg-1">Пусто</div>
+    <div class="col-sm-10 col-md-10 col-lg-10">   
+      
+          <!-- Таблица стилей CSS -->
+      <style type="text/css">
+      h2{
+          margin: 0;     
+          color: #666;
+          padding-top: 90px;
+          font-size: 52px;
+          font-family: "trebuchet ms", sans-serif;    
+      }
+      .item{
+         background: #ebeef1 url(../images/heroes-bg.png) 0 0 repeat-x;    
+          text-align: center;
+          height: 300px !important;
+      }
+      .carousel{
+
+      }
+      </style>
+
+      <!-- Карусель -->
+      <div id="myCarousel" class="carousel slide" data-interval="3000" data-ride="carousel">
+        <!-- Индикаторы для карусели -->
+        <ol class="carousel-indicators">
+          <!-- Перейти к 0 слайду карусели с помощью соответствующего индекса data-slide-to="0" -->
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <!-- Перейти к 1 слайду карусели с помощью соответствующего индекса data-slide-to="1" -->
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <!-- Перейти к 2 слайду карусели с помощью соответствующего индекса data-slide-to="2" -->
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>   
+        <!-- Слайды карусели -->
+        <div class="carousel-inner">
+          <!-- Слайды создаются с помощью контейнера с классом item, внутри которого помещается содержимое слайда -->
+          <div class="active item">
+            <h2>Слайд №1</h2>
+            <div class="carousel-caption">
+              <h3>Заголовок 1 слайда</h3>
+              <p>Текст (описание) 1 слайда...</p>
+            </div>
+          </div>
+          <!-- Слайд №2 -->
+          <div class="item">
+            <h2>Slide 2</h2>
+            <div class="carousel-caption">
+              <h3>Second slide label</h3>
+              <p>Aliquam sit amet gravida nibh, facilisis gravida odio.</p>
+            </div>
+          </div>
+          <!-- Слайд №3 -->
+          <div class="item">
+            <h2>Slide 3</h2>
+            <div class="carousel-caption">
+              <h3>Third slide label</h3>
+              <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+            </div>
+          </div>
+        </div>
+        <!-- Навигация для карусели -->
+        <!-- Кнопка, осуществляющая переход на предыдущий слайд с помощью атрибута data-slide="prev" -->
+        <a class="carousel-control left" href="#myCarousel" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left"></span>
+        </a>
+        <!-- Кнопка, осуществляющая переход на следующий слайд с помощью атрибута data-slide="next" -->
+        <a class="carousel-control right" href="#myCarousel" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right"></span>
+        </a>
+      </div>
+
+
+    </div>
+
+    <div class="col-sm-1 col-md-1 col-lg-1">Пусто</div> 
+  </div>
+
+
+  <div class="row uslugi otstup">
+    <div class="col-sm-1 col-md-1 col-lg-1">Пусто</div>
+    <div class="col-sm-2 col-md-2 col-lg-2">
+              <a href="#">
+                  <div class="image"><img src="images/service-icon-display-big.png" width="67" height="61" alt=""></div>
+                  <h3>Экран и матрица</h3>
+                  <div class="small">Ремонт и замена матриц, лампы подсветки, инвертора питания на дому.</div>
+              </a></div>
+    <div class="col-sm-2 col-md-2 col-lg-2">
+              <a href="#">
+                  <div class="image"><img src="images/service-icon-clean-big.png" width="67" height="61" alt=""></div>
+                  <h3>Экран и матрица</h3>
+                  <div class="small">Ремонт и замена матриц, лампы подсветки, инвертора питания на дому.</div>
+              </a>
+    </div>
+    <div class="col-sm-2 col-md-2 col-lg-2">
+                <a href="#">
+                  <div class="image"><img src="images/service-icon-on-big.png" width="67" height="61" alt=""></div>
+                  <h3>Экран и матрица</h3>
+                  <div class="small">Ремонт и замена матриц, лампы подсветки, инвертора питания на дому.</div>
+              </a>
+    </div>
+    <div class="col-sm-2 col-md-2 col-lg-2">
+              <a href="#">
+                  <div class="image"><img src="images/service-icon-power-big.png" width="67" height="61" alt=""></div>
+                  <h3>Экран и матрица</h3>
+                  <div class="small">Ремонт и замена матриц, лампы подсветки, инвертора питания на дому.</div>
+              </a>
+    </div>
+    <div class="col-sm-2 col-md-2 col-lg-2">
+              <a href="#">
+                  <div class="image"><img src="images/service-icon-help-big.png" width="67" height="61" alt=""></div>
+                  <div class="zagolovok">Экран и матрица</div>
+                  <div class="small">Ремонт и замена матриц, лампы подсветки, инвертора питания на дому.</div>
+              </a>
+    </div>
+
+
+    <div class="col-sm-1 col-md-1 col-lg-1">Пусто</div>
+  </div>  
+</div>
+
+
+  </body>
+</html>
